@@ -27,24 +27,24 @@ public class ValidationSitemapPage extends TestBase {
 		ValidationResult.validateData(actualhome, properties1.getProperty("expectedhome"), "loc.validate.home");
 
 		actualaboutus = driver.findElement(By.xpath(properties.getProperty("loc.validate.aboutus"))).getText();
-		ValidationResult.validateData(actualhome, properties1.getProperty("expectedaboutus"), "loc.validate.aboutus");
+		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedaboutus"), "loc.validate.aboutus");
 
 		actualserices = driver.findElement(By.xpath(properties.getProperty("loc.validate.services"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedservices"),"loc.validate.services");
+		ValidationResult.validateData(actualserices, properties1.getProperty("expectedservices"),"loc.validate.services");
 
 		actualpartners = driver.findElement(By.xpath(properties.getProperty("loc.validate.partners"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedpartners"),"loc.validate.partners");
+		ValidationResult.validateData(actualpartners, properties1.getProperty("expectedpartners"),"loc.validate.partners");
 
 		actualcasestudiesold = driver.findElement(By.xpath(properties.getProperty("loc.validate.casestudiesold"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedcasestudiesold"),"loc.validate.casestudiesold");
+		ValidationResult.validateData(actualcasestudiesold, properties1.getProperty("expectedcasestudiesold"),"loc.validate.casestudiesold");
 
 		actualnews = driver.findElement(By.xpath(properties.getProperty("loc.validate.news"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectednews"), "loc.validate.news");
+		ValidationResult.validateData(actualnews, properties1.getProperty("expectednews"), "loc.validate.news");
 
 		actualcareers = driver.findElement(By.xpath(properties.getProperty("loc.validate.careers"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedcareers"),"loc.validate.careers");
+		ValidationResult.validateData(actualcareers, properties1.getProperty("expectedcareers"),"loc.validate.careers");
 
 		actualcontactus = driver.findElement(By.xpath(properties.getProperty("loc.validate.contactus"))).getText();
-		ValidationResult.validateData(actualaboutus, properties1.getProperty("expectedcontactus"),"loc.validate.contactus");
+		ValidationResult.validateData(actualcontactus, properties1.getProperty("expectedcontactus"),"loc.validate.contactus");
 	}
 }

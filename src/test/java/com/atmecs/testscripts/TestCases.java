@@ -46,6 +46,7 @@ public class TestCases extends TestBase {
 		Thread.sleep(3000);
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.firstblog"));
 		ValidationBlogPage.validateContent();
+		Thread.sleep(3000);
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.submit"));
 	}
 

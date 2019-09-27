@@ -8,8 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import com.atmecs.utils.ConstantsFilePaths;
 import com.atmecs.utils.ReadLocatorsFile;
 
@@ -19,7 +17,7 @@ public class TestBase {
 	String browser;
 	public static WebDriver driver;
 
-	@Test
+	@BeforeTest
 	public void initializeBrowser() throws Exception {
 		baseProperty = ReadLocatorsFile.loadProperty(ConstantsFilePaths.CONFIG_FILE);
 		url = baseProperty.getProperty("url");

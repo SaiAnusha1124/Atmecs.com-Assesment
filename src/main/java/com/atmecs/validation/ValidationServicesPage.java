@@ -22,7 +22,7 @@ public class ValidationServicesPage extends TestBase {
 		 * In footer part validating Services and subheadings
 		 */
 		actualartificialintelligence = driver.findElement(By.xpath(properties.getProperty("loc.validate.artificialintelligence"))).getText();
-		ValidationResult.validateData(actualartificialintelligence, "expectedartificialintelligence",properties1.getProperty("loc.validate.artificialintelligence"));
+		ValidationResult.validateData(actualartificialintelligence, properties1.getProperty("expectedartificialintelligence"),"loc.validate.artificialintelligence");
 		
 		actualaugmentedreality = driver.findElement(By.xpath(properties.getProperty("loc.validate.augmentedreality"))).getText();		
 		ValidationResult.validateData(actualaugmentedreality, properties1.getProperty("expectedaugmentedreality"),"loc.validate.augmentedreality");

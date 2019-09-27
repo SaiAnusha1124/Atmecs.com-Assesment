@@ -5,10 +5,8 @@
     <classes>
       <class name="com.atmecs.testscripts.TestCases">
         <methods>
-          <include name="Services"/>
           <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="Validatingfooter"/>
           <include name="insights"/>
         </methods>
       </class> <!-- com.atmecs.testscripts.TestCases -->

@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 44.939 s <<< FAILURE! - in TestSuite
-Validatingfooter(com.atmecs.testscripts.TestCases)  Time elapsed: 3.992 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.atmecs.testscripts.TestCases.Validatingfooter(TestCases.java:28)
-
-Services(com.atmecs.testscripts.TestCases)  Time elapsed: 6.589 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.atmecs.testscripts.TestCases.Services(TestCases.java:40)
-
-insights(com.atmecs.testscripts.TestCases)  Time elapsed: 3.683 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a> is not clickable at point (235, 319). Other element would receive the click: <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a>
-  (Session info: chrome=77.0.3865.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4708aa1de5d07ab22c614760584420a9
-	at com.atmecs.testscripts.TestCases.insights(TestCases.java:49)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.093 s - in TestSuite

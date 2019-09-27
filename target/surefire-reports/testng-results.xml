@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-26T14:22:51Z" name="Suite" finished-at="2019-09-26T14:24:21Z" duration-ms="90337">
+  <suite started-at="2019-09-27T07:00:28Z" name="Suite" finished-at="2019-09-27T07:01:10Z" duration-ms="42212">
     <groups>
     </groups>
-    <test started-at="2019-09-26T14:22:51Z" name="Test" finished-at="2019-09-26T14:24:21Z" duration-ms="90337">
+    <test started-at="2019-09-27T07:00:28Z" name="Test" finished-at="2019-09-27T07:01:10Z" duration-ms="42212">
       <class name="com.atmecs.testscripts.TestCases">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@4445629]" started-at="2019-09-26T14:22:51Z" name="initializeBrowser" finished-at="2019-09-26T14:22:58Z" duration-ms="7857" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@56a6d5a6]" started-at="2019-09-27T07:00:28Z" name="initializeBrowser" finished-at="2019-09-27T07:00:56Z" duration-ms="27904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="Validatingfooter()[pri:1, instance:com.atmecs.testscripts.TestCases@4445629]" started-at="2019-09-26T14:22:58Z" name="Validatingfooter" finished-at="2019-09-26T14:23:02Z" duration-ms="3065" status="FAIL">
+        <test-method signature="Validatingfooter()[pri:1, instance:com.atmecs.testscripts.TestCases@56a6d5a6]" started-at="2019-09-27T07:00:56Z" name="Validatingfooter" finished-at="2019-09-27T07:01:00Z" duration-ms="3977" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -52,7 +52,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validatingfooter -->
-        <test-method signature="Services()[pri:2, instance:com.atmecs.testscripts.TestCases@4445629]" started-at="2019-09-26T14:23:02Z" name="Services" finished-at="2019-09-26T14:24:06Z" duration-ms="64538" status="FAIL">
+        <test-method signature="Services()[pri:2, instance:com.atmecs.testscripts.TestCases@56a6d5a6]" started-at="2019-09-27T07:01:00Z" name="Services" finished-at="2019-09-27T07:01:07Z" duration-ms="6594" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -93,12 +93,40 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Services -->
-        <test-method signature="insights()[pri:3, instance:com.atmecs.testscripts.TestCases@4445629]" started-at="2019-09-26T14:24:06Z" name="insights" finished-at="2019-09-26T14:24:21Z" duration-ms="14818" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="insights()[pri:3, instance:com.atmecs.testscripts.TestCases@56a6d5a6]" started-at="2019-09-27T07:01:07Z" name="insights" finished-at="2019-09-27T07:01:10Z" duration-ms="3680" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a> is not clickable at point (235, 319). Other element would receive the click: <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4708aa1de5d07ab22c614760584420a9]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.validation.ValidationBlogPage.validateContent(ValidationBlogPage.java:27)
-at com.atmecs.testscripts.TestCases.insights(TestCases.java:50)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a> is not clickable at point (235, 319). Other element would receive the click: <a href="http://www.atmecs.com/debunking-myths-about-ai/" title="Debunking Myths about AI" class="vc_gitem-link vc-zone-link"></a>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4708aa1de5d07ab22c614760584420a9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.atmecs.pageactions.PageActions.clickOnElement(PageActions.java:19)
+at com.atmecs.testscripts.TestCases.insights(TestCases.java:49)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,11 +158,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insights -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@4445629]" started-at="2019-09-26T14:24:21Z" name="closeBrowser" finished-at="2019-09-26T14:24:22Z" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@56a6d5a6]" started-at="2019-09-27T07:01:11Z" name="closeBrowser" finished-at="2019-09-27T07:01:12Z" duration-ms="1375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

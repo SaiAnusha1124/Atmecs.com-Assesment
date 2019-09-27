@@ -1,18 +1,18 @@
 package com.atmecs.validation;
 
 import java.util.Properties;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import com.atmecs.testbase.TestBase;
 import com.atmecs.utils.ConstantsFilePaths;
 import com.atmecs.utils.ReadLocatorsFile;
 
-public class ValidationDigitalLifePage {
-	static WebDriver driver;
+public class ValidationDigitalLifePage extends TestBase {
+	
 	static String xpath;
 	static Properties properties;
 	static Properties properties1;
-	static String actualdigitallifevalue1, actualdigitallifevalue2, actualdigitallifevalue3, actualdigitallifevalue4, actualdigitallifevalue5;
+	static String actualdigitallifevalue1, actualdigitallifevalue2, actualdigitallifevalue3,
+	              actualdigitallifevalue4,actualdigitallifevalue5;
 
 	public static void validateDigitallife() throws Exception {
 		//read locators from locators file
@@ -23,7 +23,7 @@ public class ValidationDigitalLifePage {
 		 * In Services,validating DigitalLife subheadings
 		 */
 		actualdigitallifevalue1 = driver.findElement(By.xpath(properties.getProperty("loc.validate.digitallife.1"))).getText();
-		ValidationResult.validateData(actualdigitallifevalue1, properties1.getProperty("expectedvalue1"),"loc.validate.digitallife.1");
+		ValidationResult.validateData("loc.validate.digitallife.1",actualdigitallifevalue1, properties1.getProperty("expectedvalue1"));
 
 		actualdigitallifevalue2 = driver.findElement(By.xpath(properties.getProperty("loc.validate.digitallife.2"))).getText();
 		ValidationResult.validateData(actualdigitallifevalue2, properties1.getProperty("expectedvalue2"),"loc.validate.digitallife.2");

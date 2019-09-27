@@ -2,12 +2,12 @@ package com.atmecs.validation;
 
 import java.util.Properties;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import com.atmecs.testbase.TestBase;
 import com.atmecs.utils.ConstantsFilePaths;
 import com.atmecs.utils.ReadLocatorsFile;
 
-public class ValidationInfrastrcuturePage {
-	static WebDriver driver;
+public class ValidationInfrastrcuturePage extends TestBase{
+	
 	static String xpath;
 	static Properties properties;
 	static Properties properties1;

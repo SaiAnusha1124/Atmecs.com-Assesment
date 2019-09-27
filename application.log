@@ -1,0 +1,231 @@
+2019-09-27 16:43:15,141  INFO [main] LogReports:19 - failed : loc.validate.home :  Actual data : Home Expected data : home
+2019-09-27 16:43:15,253  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : aboutus
+2019-09-27 16:43:15,361  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : services
+2019-09-27 16:43:15,469  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : partners
+2019-09-27 16:43:15,559  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : casestudiesold
+2019-09-27 16:43:15,650  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : news
+2019-09-27 16:43:15,758  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : careers
+2019-09-27 16:43:15,852  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : contactus
+2019-09-27 16:53:15,348  INFO [main] LogReports:19 - failed : loc.validate.home :  Actual data : Home Expected data : home
+2019-09-27 16:53:15,451  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : aboutus
+2019-09-27 16:53:15,544  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : services
+2019-09-27 16:53:15,640  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : partners
+2019-09-27 16:53:15,747  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : casestudiesold
+2019-09-27 16:53:15,838  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : news
+2019-09-27 16:53:15,939  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : careers
+2019-09-27 16:53:16,024  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : contactus
+2019-09-27 16:53:16,111  INFO [main] LogReports:19 - failed : Artificial Intelligence / Machine Learning :  Actual data : Artificial Intelligence / Machine Learning Expected data : loc.validate.artificialintelligence
+2019-09-27 16:53:16,205  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 16:53:16,292  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 16:53:16,394  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 16:53:16,499  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 16:53:16,581  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 16:53:16,669  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 16:53:16,787  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 16:53:16,888  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 16:53:16,985  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 16:53:17,077  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 16:53:17,172  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 16:53:17,264  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 16:53:17,359  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 16:53:17,466  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 16:53:17,559  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 16:53:17,644  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 16:53:17,744  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 16:53:17,836  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 16:53:17,947  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 16:53:18,051  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 16:59:30,049  INFO [main] LogReports:19 - failed : loc.validate.home :  Actual data : Home Expected data : home
+2019-09-27 16:59:30,168  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : aboutus
+2019-09-27 16:59:30,258  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : services
+2019-09-27 16:59:30,357  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : partners
+2019-09-27 16:59:30,448  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : casestudiesold
+2019-09-27 16:59:30,535  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : news
+2019-09-27 16:59:30,633  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : careers
+2019-09-27 16:59:30,735  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : contactus
+2019-09-27 16:59:30,820  INFO [main] LogReports:19 - failed : Artificial Intelligence / Machine Learning :  Actual data : Artificial Intelligence / Machine Learning Expected data : loc.validate.artificialintelligence
+2019-09-27 16:59:30,913  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 16:59:31,004  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 16:59:31,101  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 16:59:31,182  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 16:59:31,270  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 16:59:31,361  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 16:59:31,440  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 16:59:31,521  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 16:59:31,618  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 16:59:31,703  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 16:59:31,782  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 16:59:31,868  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 16:59:31,950  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 16:59:32,033  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 16:59:32,125  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 16:59:32,207  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 16:59:32,294  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 16:59:32,382  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 16:59:32,470  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 16:59:32,566  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 17:04:09,858  INFO [main] LogReports:19 - failed : expectedhome :  Actual data : Home Expected data : null
+2019-09-27 17:04:09,982  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : About Us
+2019-09-27 17:04:10,078  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : Services
+2019-09-27 17:04:10,190  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : Partners
+2019-09-27 17:04:10,288  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : Case Studies old
+2019-09-27 17:04:10,376  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : News
+2019-09-27 17:04:10,477  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : Careers
+2019-09-27 17:04:10,569  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : Contact Us
+2019-09-27 17:04:10,669  INFO [main] LogReports:19 - failed : Artificial Intelligence / Machine Learning :  Actual data : Artificial Intelligence / Machine Learning Expected data : loc.validate.artificialintelligence
+2019-09-27 17:04:10,778  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 17:04:10,879  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 17:04:11,002  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 17:04:11,118  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 17:04:11,248  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 17:04:11,336  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 17:04:11,416  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 17:04:11,511  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 17:04:11,601  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 17:04:11,691  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 17:04:11,799  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 17:04:11,883  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 17:04:11,969  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 17:04:12,065  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 17:04:12,169  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 17:04:12,258  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 17:04:12,345  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 17:04:12,434  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 17:04:12,537  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 17:04:12,641  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 17:05:57,976  INFO [main] LogReports:19 - Passed : loc.validate.home :  Actual data : Home Expected data : Home
+2019-09-27 17:05:58,083  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : About Us
+2019-09-27 17:05:58,181  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : Services
+2019-09-27 17:05:58,293  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : Partners
+2019-09-27 17:05:58,395  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : Case Studies old
+2019-09-27 17:05:58,508  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : News
+2019-09-27 17:05:58,610  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : Careers
+2019-09-27 17:05:58,709  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : Contact Us
+2019-09-27 17:05:58,804  INFO [main] LogReports:19 - failed : null :  Actual data : Artificial Intelligence / Machine Learning Expected data : expectedartificialintelligence
+2019-09-27 17:05:58,896  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 17:05:58,990  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 17:05:59,088  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 17:05:59,176  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 17:05:59,283  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 17:05:59,389  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 17:05:59,476  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 17:05:59,576  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 17:05:59,664  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 17:05:59,759  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 17:05:59,848  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 17:05:59,929  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 17:06:00,062  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 17:06:00,167  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 17:06:00,274  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 17:06:00,378  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 17:06:00,465  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 17:06:00,558  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 17:06:00,664  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 17:06:00,776  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 17:08:19,730  INFO [main] LogReports:19 - Passed : loc.validate.home :  Actual data : Home Expected data : Home
+2019-09-27 17:08:19,837  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : About Us
+2019-09-27 17:08:19,942  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : Services
+2019-09-27 17:08:20,046  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : Partners
+2019-09-27 17:08:20,140  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : Case Studies old
+2019-09-27 17:08:20,237  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : News
+2019-09-27 17:08:20,350  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : Careers
+2019-09-27 17:08:20,438  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : Contact Us
+2019-09-27 17:08:20,539  INFO [main] LogReports:19 - failed : null :  Actual data : Artificial Intelligence / Machine Learning Expected data : expectedartificialintelligence
+2019-09-27 17:08:20,632  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 17:08:20,724  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 17:08:20,827  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 17:08:20,926  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 17:08:21,013  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 17:08:21,124  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 17:08:21,205  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 17:08:21,294  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 17:08:21,385  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 17:08:21,473  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 17:08:21,559  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 17:08:21,640  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 17:08:21,727  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 17:08:21,821  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 17:08:21,908  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 17:08:21,992  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 17:08:22,087  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 17:08:22,205  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 17:08:22,299  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 17:08:22,455  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 17:08:28,110  INFO [main] LogReports:19 - failed : null :  Actual data : loc.validate.digitallife.1 Expected data : 
+2019-09-27 17:08:28,188  INFO [main] LogReports:19 - failed : loc.validate.digitallife.2 :  Actual data :  Expected data : null
+2019-09-27 17:08:28,275  INFO [main] LogReports:19 - failed : loc.validate.digitallife.3 :  Actual data :  Expected data : null
+2019-09-27 17:08:28,371  INFO [main] LogReports:19 - failed : loc.validate.digitallife.4 :  Actual data :  Expected data : null
+2019-09-27 17:08:28,467  INFO [main] LogReports:19 - failed : loc.validate.digitallife.5 :  Actual data :  Expected data : null
+2019-09-27 17:08:28,556  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.1 :  Actual data :  Expected data : Infrastructure Management
+2019-09-27 17:08:28,637  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.2 :  Actual data :  Expected data : Cloud Infrastructure
+2019-09-27 17:08:28,721  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.3 :  Actual data :  Expected data : Devops
+2019-09-27 17:08:28,802  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.4 :  Actual data :  Expected data : NOC Services
+2019-09-27 17:08:28,879  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.5 :  Actual data :  Expected data : Data Center Management
+2019-09-27 17:12:38,301  INFO [main] LogReports:19 - Passed : loc.validate.home :  Actual data : Home Expected data : Home
+2019-09-27 17:12:38,405  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : About Us
+2019-09-27 17:12:38,498  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : Services
+2019-09-27 17:12:38,594  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : Partners
+2019-09-27 17:12:38,692  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : Case Studies old
+2019-09-27 17:12:38,781  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : News
+2019-09-27 17:12:38,874  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : Careers
+2019-09-27 17:12:38,969  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : Contact Us
+2019-09-27 17:12:39,061  INFO [main] LogReports:19 - failed : null :  Actual data : Artificial Intelligence / Machine Learning Expected data : expectedartificialintelligence
+2019-09-27 17:12:39,175  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 17:12:39,264  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 17:12:39,354  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 17:12:39,454  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 17:12:39,547  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 17:12:39,654  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 17:12:39,738  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 17:12:39,832  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 17:12:39,922  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 17:12:40,017  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 17:12:40,115  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 17:12:40,213  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 17:12:40,311  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 17:12:40,417  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 17:12:40,512  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 17:12:40,601  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 17:12:40,705  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 17:12:40,796  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 17:12:40,908  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 17:12:41,019  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland
+2019-09-27 17:12:49,435  INFO [main] LogReports:19 - failed : null :  Actual data : loc.validate.digitallife.1 Expected data : 
+2019-09-27 17:12:49,525  INFO [main] LogReports:19 - failed : loc.validate.digitallife.2 :  Actual data :  Expected data : null
+2019-09-27 17:12:49,610  INFO [main] LogReports:19 - failed : loc.validate.digitallife.3 :  Actual data :  Expected data : null
+2019-09-27 17:12:49,719  INFO [main] LogReports:19 - failed : loc.validate.digitallife.4 :  Actual data :  Expected data : null
+2019-09-27 17:12:49,813  INFO [main] LogReports:19 - failed : loc.validate.digitallife.5 :  Actual data :  Expected data : null
+2019-09-27 17:12:49,908  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.1 :  Actual data :  Expected data : Infrastructure Management
+2019-09-27 17:12:49,995  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.2 :  Actual data :  Expected data : Cloud Infrastructure
+2019-09-27 17:12:50,072  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.3 :  Actual data :  Expected data : Devops
+2019-09-27 17:12:50,156  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.4 :  Actual data :  Expected data : NOC Services
+2019-09-27 17:12:50,249  INFO [main] LogReports:19 - failed : loc.validate.infrastructure.5 :  Actual data :  Expected data : Data Center Management
+2019-09-27 17:15:51,591  INFO [main] LogReports:19 - Passed : loc.validate.home :  Actual data : Home Expected data : Home
+2019-09-27 17:15:51,948  INFO [main] LogReports:19 - failed : loc.validate.aboutus :  Actual data : Home Expected data : About Us
+2019-09-27 17:15:52,255  INFO [main] LogReports:19 - failed : loc.validate.services :  Actual data : About Us Expected data : Services
+2019-09-27 17:15:52,563  INFO [main] LogReports:19 - failed : loc.validate.partners :  Actual data : About Us Expected data : Partners
+2019-09-27 17:15:52,891  INFO [main] LogReports:19 - failed : loc.validate.casestudiesold :  Actual data : About Us Expected data : Case Studies old
+2019-09-27 17:15:53,217  INFO [main] LogReports:19 - failed : loc.validate.news :  Actual data : About Us Expected data : News
+2019-09-27 17:15:53,526  INFO [main] LogReports:19 - failed : loc.validate.careers :  Actual data : About Us Expected data : Careers
+2019-09-27 17:15:53,864  INFO [main] LogReports:19 - failed : loc.validate.contactus :  Actual data : About Us Expected data : Contact Us
+2019-09-27 17:15:54,182  INFO [main] LogReports:19 - failed : null :  Actual data : Artificial Intelligence / Machine Learning Expected data : expectedartificialintelligence
+2019-09-27 17:15:54,504  INFO [main] LogReports:19 - Passed : loc.validate.augmentedreality :  Actual data : Augmented Reality / Virtual Reality Expected data : Augmented Reality / Virtual Reality
+2019-09-27 17:15:54,836  INFO [main] LogReports:19 - Passed : loc.validate.qualityengineering :  Actual data : Quality Engineering Expected data : Quality Engineering
+2019-09-27 17:15:55,160  INFO [main] LogReports:19 - Passed : loc.validate.blockchain :  Actual data : Blockchain Expected data : Blockchain
+2019-09-27 17:15:55,467  INFO [main] LogReports:19 - Passed : loc.validate.roboticprocessautomation :  Actual data : Robotic Process Automation & ChatBOTs Expected data : Robotic Process Automation & ChatBOTs
+2019-09-27 17:15:55,811  INFO [main] LogReports:19 - Passed : loc.validate.cloudservices :  Actual data : Cloud Services Expected data : Cloud Services
+2019-09-27 17:15:56,140  INFO [main] LogReports:19 - Passed : loc.validate.enterpriseanalytics :  Actual data : Enterprise Analytics Expected data : Enterprise Analytics
+2019-09-27 17:15:56,439  INFO [main] LogReports:19 - Passed : loc.validate.internetofthings :  Actual data : Internet of Things Expected data : Internet of Things
+2019-09-27 17:15:56,737  INFO [main] LogReports:19 - Passed : loc.validate.mobilecomputing :  Actual data : Mobile Computing Expected data : Mobile Computing
+2019-09-27 17:15:57,006  INFO [main] LogReports:19 - Passed : loc.validate.productengineering :  Actual data : Product Engineering Expected data : Product Engineering
+2019-09-27 17:15:57,294  INFO [main] LogReports:19 - Passed : loc.validate.automationengineer :  Actual data : Automation Engineer Expected data : Automation Engineer
+2019-09-27 17:15:57,555  INFO [main] LogReports:19 - Passed : loc.validate.devopsengineer :  Actual data : DevOps Engineer Expected data : DevOps Engineer
+2019-09-27 17:15:57,842  INFO [main] LogReports:19 - Passed : loc.validate.seniornetengineer :  Actual data : Senior .NET Engineer Expected data : Senior .NET Engineer
+2019-09-27 17:15:58,124  INFO [main] LogReports:19 - Passed : loc.validate.seniorjavaJ2EEengineer :  Actual data : Senior Java/J2EE Engineer Expected data : Senior Java/J2EE Engineer
+2019-09-27 17:15:58,405  INFO [main] LogReports:19 - Passed : loc.validate.USheadquarters :  Actual data : US Headquarters Expected data : US Headquarters
+2019-09-27 17:15:58,690  INFO [main] LogReports:19 - Passed : loc.validate.USRDCenter :  Actual data : US R&D Center Expected data : US R&D Center
+2019-09-27 17:15:58,975  INFO [main] LogReports:19 - Passed : loc.validate.IndiaHyderabad :  Actual data : India – Hyderabad Expected data : India – Hyderabad
+2019-09-27 17:15:59,262  INFO [main] LogReports:19 - Passed : loc.validate.IndiaBangalore :  Actual data : India – Bangalore Expected data : India – Bangalore
+2019-09-27 17:15:59,537  INFO [main] LogReports:19 - Passed : loc.validate.IndiaChennai :  Actual data : India – Chennai Expected data : India – Chennai
+2019-09-27 17:15:59,817  INFO [main] LogReports:19 - Passed : loc.validate.info :  Actual data : info@atmecs.com Expected data : info@atmecs.com
+2019-09-27 17:16:00,105  INFO [main] LogReports:19 - Passed : loc.validate.EuropeIreland :  Actual data : Europe – Ireland Expected data : Europe – Ireland

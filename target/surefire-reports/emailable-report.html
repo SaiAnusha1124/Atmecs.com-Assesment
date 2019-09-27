@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">90,337</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">42,212</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.atmecs.testscripts.TestCases</td><td><a href="#m0">Services</a></td><td rowspan="1">1569507782021</td><td rowspan="1">64538</td></tr><tr class="failedeven"><td><a href="#m1">Validatingfooter</a></td><td rowspan="1">1569507778941</td><td rowspan="1">3065</td></tr><tr class="failedeven"><td><a href="#m2">insights</a></td><td rowspan="1">1569507846559</td><td rowspan="1">14818</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.atmecs.testscripts.TestCases</td><td><a href="#m0">Services</a></td><td rowspan="1">1569567660692</td><td rowspan="1">6594</td></tr><tr class="failedeven"><td><a href="#m1">Validatingfooter</a></td><td rowspan="1">1569567656702</td><td rowspan="1">3977</td></tr><tr class="failedeven"><td><a href="#m2">insights</a></td><td rowspan="1">1569567667289</td><td rowspan="1">3680</td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">com.atmecs.testscripts.TestCases#Services</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
 	at com.atmecs.validation.ValidationDigitalLifePage.validateDigitallife(ValidationDigitalLifePage.java:25)
@@ -21,9 +21,23 @@
 	at com.atmecs.validation.ValidationSitemapPage.validateSitemap(ValidationSitemapPage.java:26)
 	at com.atmecs.testscripts.TestCases.Validatingfooter(TestCases.java:28)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.atmecs.testscripts.TestCases#insights</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.atmecs.validation.ValidationBlogPage.validateContent(ValidationBlogPage.java:27)
-	at com.atmecs.testscripts.TestCases.insights(TestCases.java:50)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.atmecs.testscripts.TestCases#insights</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;http://www.atmecs.com/debunking-myths-about-ai/&quot; title=&quot;Debunking Myths about AI&quot; class=&quot;vc_gitem-link vc-zone-link&quot;&gt;&lt;/a&gt; is not clickable at point (235, 319). Other element would receive the click: &lt;a href=&quot;http://www.atmecs.com/debunking-myths-about-ai/&quot; title=&quot;Debunking Myths about AI&quot; class=&quot;vc_gitem-link vc-zone-link&quot;&gt;&lt;/a&gt;
+  (Session info: chrome=77.0.3865.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4708aa1de5d07ab22c614760584420a9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.pageactions.PageActions.clickOnElement(PageActions.java:19)
+	at com.atmecs.testscripts.TestCases.insights(TestCases.java:49)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

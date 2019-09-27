@@ -22,8 +22,7 @@ public class TestCases extends TestBase {
 	LogReports log = new LogReports();
 
 	@Test(priority = 1)
-	public static void Validatingfooter() throws Exception
-	{
+	public static void Validatingfooter() throws Exception {
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.home"));
 		ValidationSitemapPage.validateSitemap();
 		ValidationServicesPage.validateServices();
@@ -32,8 +31,7 @@ public class TestCases extends TestBase {
 	}
 
 	@Test(priority = 2)
-	public static void Services() throws Exception
-	{
+	public static void Services() throws Exception {
 		PageActions.clickOnElement(driver, properties.getProperty("loc.bttn.Services"));
 		PageActions.sendKeys(driver, properties.getProperty("loc.bttn.Services"), "Digital Life");
 		PageActions.sendKeys(Keys.ENTER);
@@ -42,12 +40,13 @@ public class TestCases extends TestBase {
 	}
 
 	@Test(priority = 3)
-	public static void insights() throws Exception 
-	{
+	public static void insights() throws Exception {
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.insights"));
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.blog"));
+		Thread.sleep(3000);
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.firstblog"));
 		ValidationBlogPage.validateContent();
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.submit"));
 	}
+
 }

@@ -1,15 +1,12 @@
 package com.atmecs.validation;
 
 import java.util.Properties;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
+import com.atmecs.testbase.TestBase;
 import com.atmecs.utils.ConstantsFilePaths;
 import com.atmecs.utils.ReadLocatorsFile;
 
-public class ValidationServicesPage {
-	static WebDriver driver;
+public class ValidationServicesPage extends TestBase {
 	static String xpath;
 	static Properties properties;
 	static Properties properties1;
@@ -25,9 +22,9 @@ public class ValidationServicesPage {
 		 * In footer part validating Services and subheadings
 		 */
 		actualartificialintelligence = driver.findElement(By.xpath(properties.getProperty("loc.validate.artificialintelligence"))).getText();
-		ValidationResult.validateData(actualartificialintelligence, properties1.getProperty("expectedartificialintelligence"),"loc.validate.artificialintelligence");
+		ValidationResult.validateData(actualartificialintelligence, "expectedartificialintelligence",properties1.getProperty("loc.validate.artificialintelligence"));
 		
-		actualaugmentedreality = driver.findElement(By.xpath(properties.getProperty("loc.validate.augmentedreality"))).getText();
+		actualaugmentedreality = driver.findElement(By.xpath(properties.getProperty("loc.validate.augmentedreality"))).getText();		
 		ValidationResult.validateData(actualaugmentedreality, properties1.getProperty("expectedaugmentedreality"),"loc.validate.augmentedreality");
 		
 		actualqualityengineering = driver.findElement(By.xpath(properties.getProperty("loc.validate.qualityengineering"))).getText();

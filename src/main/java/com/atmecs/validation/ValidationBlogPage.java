@@ -26,6 +26,7 @@ public class ValidationBlogPage extends TestBase {
 
 		actualdate = driver.findElement(By.xpath(properties.getProperty("loc.validate.date"))).getText();
 		ValidationResult.validateData(actualdate, properties1.getProperty("expecteddate"), "loc.validate.date");
+		ValidationGetDate.differenceBetweenTwoDates();
 
 		actualtopic = driver.findElement(By.xpath(properties.getProperty("loc.validate.topic"))).getText();
 		ValidationResult.validateData(actualtopic, properties1.getProperty("expectedtopic"), "loc.validate.topic");

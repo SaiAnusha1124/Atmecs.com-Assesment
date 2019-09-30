@@ -2,8 +2,11 @@ package com.atmecs.testscripts;
 
 import java.util.Properties;
 
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+
 import com.atmecs.pageactions.PageActions;
 import com.atmecs.testbase.TestBase;
 import com.atmecs.utils.ConstantsFilePaths;
@@ -19,35 +22,56 @@ import com.atmecs.validation.ValidationSitemapPage;
 
 public class TestCases extends TestBase {
 	static Properties properties = ReadLocatorsFile.loadProperty(ConstantsFilePaths.LOCATORS_FILE);
-	LogReports log = new LogReports();
+	static LogReports log = new LogReports();
 
 	@Test(priority = 1)
 	public static void Validatingfooter() throws Exception {
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.home"));
 		ValidationSitemapPage.validateSitemap();
+		log.info("sucessfully validated sitemap ");
+		PageActions.clickOnElement(driver, properties.getProperty("loc.click.services"));
 		ValidationServicesPage.validateServices();
+		log.info("sucessfully validated sevices");
+		PageActions.clickOnElement(driver, properties.getProperty("loc.click.carerrs"));
 		ValidationCareersPage.validateCareers();
+		log.info("sucessfully validated careers ");
+		PageActions.clickOnElement(driver, properties.getProperty("loc.click.contactus"));
 		ValidationContactusPage.validateContactus();
+		log.info("sucessfully validated contactus ");
 	}
 
 	@Test(priority = 2)
 	public static void Services() throws Exception {
-		PageActions.clickOnElement(driver, properties.getProperty("loc.bttn.Services"));
-		PageActions.sendKeys(driver, properties.getProperty("loc.bttn.Services"), "Digital Life");
-		PageActions.sendKeys(Keys.ENTER);
+		// PageActions.clickOnElement(driver,
+		// properties.getProperty("loc.bttn.Services"));
+		// PageActions.sendKeys(driver, properties.getProperty("loc.bttn.Services"),
+		// "Digital Life");
+		// PageActions.sendKeys(Keys.ENTER);
+		Actions action = new Actions(driver);
+		WebElement element = driver.findElement(By.xpath(properties.getProperty("loc.click.services")));
+		System.out.println(element.getText());
+		action.moveToElement(element).build().perform();
+		WebElement element1 = driver.findElement(By.xpath(properties.getProperty("loc.bttn.digital")));
+		action.moveToElement(element1).build().perform();
 		ValidationDigitalLifePage.validateDigitallife();
+		log.info("sucessfully validated DigitalLife");
+		WebElement element2 = driver.findElement(By.xpath(properties.getProperty("loc.click.services")));
+		System.out.println(element.getText());
+		action.moveToElement(element2).build().perform();
+		WebElement element3 = driver.findElement(By.xpath(properties.getProperty("loc.bttn.infra")));
+		action.moveToElement(element3).build().perform();
 		ValidationInfrastrcuturePage.validateInfrastructure();
+		log.info("sucessfully validated Infrastructure");
 	}
 
 	@Test(priority = 3)
 	public static void insights() throws Exception {
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.insights"));
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.blog"));
-		Thread.sleep(3000);
 		PageActions.clickOnElement(driver, properties.getProperty("loc.click.firstblog"));
 		ValidationBlogPage.validateContent();
-		Thread.sleep(3000);
-		PageActions.clickOnElement(driver, properties.getProperty("loc.click.submit"));
+		log.info("sucessfully validated Content of the blog");
+		// PageActions.clickOnElement(driver,
+		// properties.getProperty("loc.click.submit"));
 	}
-
 }

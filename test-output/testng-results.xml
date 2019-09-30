@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-27T13:34:50Z" name="Suite" finished-at="2019-09-27T13:35:39Z" duration-ms="48635">
+  <suite started-at="2019-09-30T14:23:08Z" name="Default suite" finished-at="2019-09-30T14:23:50Z" duration-ms="41341">
     <groups>
     </groups>
-    <test started-at="2019-09-27T13:34:50Z" name="Test" finished-at="2019-09-27T13:35:39Z" duration-ms="48635">
+    <test started-at="2019-09-30T14:23:08Z" name="Default test" finished-at="2019-09-30T14:23:50Z" duration-ms="41341">
       <class name="com.atmecs.testscripts.TestCases">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@2ef3eef9]" started-at="2019-09-27T13:34:50Z" name="initializeBrowser" finished-at="2019-09-27T13:35:10Z" duration-ms="19402" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@243c4f91]" started-at="2019-09-30T14:23:08Z" name="initializeBrowser" finished-at="2019-09-30T14:23:14Z" duration-ms="5990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="Validatingfooter()[pri:1, instance:com.atmecs.testscripts.TestCases@2ef3eef9]" started-at="2019-09-27T13:35:10Z" name="Validatingfooter" finished-at="2019-09-27T13:35:16Z" duration-ms="6303" status="PASS">
+        <test-method signature="Validatingfooter()[pri:1, instance:com.atmecs.testscripts.TestCases@243c4f91]" started-at="2019-09-30T14:23:14Z" name="Validatingfooter" finished-at="2019-09-30T14:23:34Z" duration-ms="20051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validatingfooter -->
-        <test-method signature="Services()[pri:2, instance:com.atmecs.testscripts.TestCases@2ef3eef9]" started-at="2019-09-27T13:35:16Z" name="Services" finished-at="2019-09-27T13:35:23Z" duration-ms="6583" status="PASS">
+        <test-method signature="Services()[pri:2, instance:com.atmecs.testscripts.TestCases@243c4f91]" started-at="2019-09-30T14:23:34Z" name="Services" finished-at="2019-09-30T14:23:40Z" duration-ms="5578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Services -->
-        <test-method signature="insights()[pri:3, instance:com.atmecs.testscripts.TestCases@2ef3eef9]" started-at="2019-09-27T13:35:23Z" name="insights" finished-at="2019-09-27T13:35:39Z" duration-ms="16281" status="PASS">
+        <test-method signature="insights()[pri:3, instance:com.atmecs.testscripts.TestCases@243c4f91]" started-at="2019-09-30T14:23:40Z" name="insights" finished-at="2019-09-30T14:23:50Z" duration-ms="9689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insights -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@2ef3eef9]" started-at="2019-09-27T13:35:39Z" name="closeBrowser" finished-at="2019-09-27T13:35:40Z" duration-ms="1079" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.testscripts.TestCases@243c4f91]" started-at="2019-09-30T14:23:50Z" name="closeBrowser" finished-at="2019-09-30T14:23:50Z" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.testscripts.TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

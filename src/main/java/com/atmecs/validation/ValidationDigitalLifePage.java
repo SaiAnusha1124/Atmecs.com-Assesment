@@ -11,7 +11,7 @@ public class ValidationDigitalLifePage extends TestBase {
 	static String xpath;
 	static Properties properties;
 	static Properties properties1;
-	static String actualdigitallifevalue1, actualdigitallifevalue2, actualdigitallifevalue3, actualdigitallifevalue4,
+	static String actualdigitallife,actualdigitallifevalue1, actualdigitallifevalue2, actualdigitallifevalue3, actualdigitallifevalue4,
 			actualdigitallifevalue5;
 
 	public static void validateDigitallife() throws Exception {
@@ -22,6 +22,8 @@ public class ValidationDigitalLifePage extends TestBase {
 		/*
 		 * In Services,validating DigitalLife subheadings
 		 */
+		actualdigitallife = driver.findElement(By.xpath(properties.getProperty("loc.bttn.digital"))).getText();
+		ValidationResult.validateData( actualdigitallife,properties1.getProperty("expecteddigital"),"loc.bttn.digital");
 
 		actualdigitallifevalue1 = driver.findElement(By.xpath(properties.getProperty("loc.validate.digitallife.1"))).getText();
 		ValidationResult.validateData( actualdigitallifevalue1,properties1.getProperty("expecteddigitallifevalue1"),"loc.validate.digitallife.1");

@@ -11,7 +11,7 @@ public class ValidationInfrastrcuturePage extends TestBase {
 	static String xpath;
 	static Properties properties;
 	static Properties properties1;
-	static String actualinfrasructurevalue1, actualinfrasructurevalue2, actualinfrasructurevalue3,
+	static String actualinfra,actualinfrasructurevalue1, actualinfrasructurevalue2, actualinfrasructurevalue3,
 			actualinfrasructurevalue4, actualinfrasructurevalue5;
 
 	public static void validateInfrastructure() throws Exception {
@@ -22,6 +22,8 @@ public class ValidationInfrastrcuturePage extends TestBase {
 		/*
 		 * In Services,validating Infrastructure subheadings
 		 */
+		actualinfra = driver.findElement(By.xpath(properties.getProperty("loc.bttn.infra"))).getText();
+		ValidationResult.validateData(actualinfra,properties1.getProperty("expectedinfra"), "loc.bttn.infra");
 
 		actualinfrasructurevalue1 = driver.findElement(By.xpath(properties.getProperty("loc.validate.infrastructure.1"))).getText();
 		ValidationResult.validateData(actualinfrasructurevalue1,properties1.getProperty("expectedinfrastructurevalue1"), "loc.validate.infrastructure.1");
@@ -37,6 +39,5 @@ public class ValidationInfrastrcuturePage extends TestBase {
 
 		actualinfrasructurevalue4 = driver.findElement(By.xpath(properties.getProperty("loc.validate.infrastructure.5"))).getText();
 		ValidationResult.validateData(actualinfrasructurevalue4,properties1.getProperty("expectedinfrastructurevalue5"), "loc.validate.infrastructure.5");
-
 	}
 }
